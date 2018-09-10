@@ -322,6 +322,7 @@ footer {
     border: 1px solid rgba(0, 0, 0, .1);
     display: grid;
     grid-template-columns: auto auto auto;
+    margin-bottom: 30px;
 }
 .footer-content > div > h1 {
     font-family: lovelo;
@@ -393,6 +394,15 @@ footer {
 .contact-container > p:nth-child(1) {
     color: #a8a8a8;
     font-size: 30px;
+}
+.copyright {
+    opacity: 0.4;
+    font-family: Lato;
+    font-size: 12px;
+    margin-left: 34px;
+}
+.copyright p:nth-child(2) {
+    margin: -10px 0 40px 0;
 }
 
 /* END OF FOOTER */
@@ -511,6 +521,9 @@ footer {
     }
     .newsletter-button {
         margin-top: 15px;
+    }
+    .copyright {
+    margin-left: 0;
     }
 }
 @media (min-width: 576px) and (max-width: 991px) {
